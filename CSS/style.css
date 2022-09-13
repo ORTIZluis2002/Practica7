@@ -1,0 +1,76 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+ul{
+    list-style: none; /*estilos de las listas*/
+}
+ul li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /*tipo de letra*/
+    font-size: 22px; /*tamaño de letra*/
+    height: 60px; /*altura de cada opcion de lista*/
+}
+ul li a{
+    height: 60px;/*Altura*/
+    background-color: gray;
+    display: block;
+    border-left: 10px solid rgb(32, 17, 172);
+    border-right: 5px solid rgb(24, 197, 145);
+    padding-left: 15px;
+    text-decoration: none;
+    color: aqua;
+}
+ul li a:hover{
+    margin-left: 10px; /*separacion de lado izquierdo*/
+    color: lightgreen; /*color de letra*/
+    background-color: rgb(27, 218, 202); /*color de fondo*/
+    box-shadow: 10px 10px 20px black; /*sombra*/
+    transform: rotate(4deg); /*movimiento de rotacion*/
+    -moz-transform: rotate(4deg);
+    -webkit-transform: rotate(4deg);
+}
+td{
+    vertical-align: top;
+}
+body{
+    background-color: #bdd1ab;
+}
+
+table{
+    width: 100%;
+    background-color: #aff87e;
+}
+
+td{
+    vertical-align: text-top;
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+div{
+    color:  black;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 10px;
+    border:1px solid #999999;
+    background-color: #fad8b1;
+    border-radius: 15px;
+    border: solid 2px #999999;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #C0C2C3;
+}
+.opcionMenu{
+    color: rgb(0, 0, 0);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: larger;
+}
+.opcionMenu:hover{
+    color: rgb(255, 0, 0);
+}
